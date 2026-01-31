@@ -1,4 +1,5 @@
-**Task 1: Create the Project Structure
+Module: PROJECT STRUCTURE
+Task 1: Create the Project Structure
 Objective: Introduce packages, directory structure, and the SBT build system.
 Concepts Covered:
     • Packaging
@@ -7,12 +8,24 @@ Concepts Covered:
 Task Description:
 Create the project folders exactly as shown and add an empty Main.scala.
 com/
- └── company/
-      └── etl/
-           ├── models/
-           ├── readers/
-           ├── writers/
-           ├── transformers/
-           ├── traits/
-           ├── utils/
-           └── pipeline/
+ company/
+       etl/
+            models/
+            readers/
+            writers/
+            transformers/
+            traits/
+            utils/
+            pipeline/
+
+MODULE 2 — CASE CLASSES & DATA MODELING
+
+Task 2: Implement the Employee & EmployeeStats case classes
+Objective: modeling real-world data using case classes.
+Concepts Covered:
+    • Case Class
+    • Immutability
+    • Typed fields
+Task Description:
+Create simple models inside models/Employee.scala.
+
