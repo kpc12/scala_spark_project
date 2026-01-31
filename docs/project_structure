@@ -95,3 +95,37 @@ Concepts Covered:
 Task Description:
 Enhance the pipeline with filter functions.
 
+MODULE 9 — UTILITY MODULE & TEST DATA GENERATION
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Task 9: Implement DataGenerator Utility
+Objective: random data generation and helper utilities.
+Concepts Covered:
+    • Random values
+    • Utility objects
+    • Writing CSV programmatically
+Task Description:
+Generate realistic employee data using Scala collections.
+
+MODULE 10 — TESTING WITH SCALATEST
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Task 10: Write Unit Tests
+Objective: basic testing methodology.
+Concepts Covered:
+    • ScalaTest
+    • Assertions & matchers
+    • Testing FP transformations
+Task Description:
+Write tests for:
+    • EmployeeAnalyzer
+    • CsvEmployeeReader
+
+MODULE 11 — FINAL EXECUTION & DEMONSTRATION
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Task 11: Run Everything from Main.scala
+Objective: how to integrate modules and run the ETL.
+Concepts Covered:
+    • Program entry point
+    • Orchestrating entire app
+Task Description:
+Generate input → run pipeline → produce report.
+
