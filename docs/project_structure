@@ -1,1 +1,18 @@
-
+**Task 1: Create the Project Structure
+Objective: Introduce packages, directory structure, and the SBT build system.
+Concepts Covered:
+    • Packaging
+    • Folder structure (src/main/scala/...)
+    • SBT basics
+Task Description:
+Create the project folders exactly as shown and add an empty Main.scala.
+com/
+ └── company/
+      └── etl/
+           ├── models/
+           ├── readers/
+           ├── writers/
+           ├── transformers/
+           ├── traits/
+           ├── utils/
+           └── pipeline/
