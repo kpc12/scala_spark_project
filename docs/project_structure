@@ -64,4 +64,34 @@ Compute statistics per department.
 
 MODULE 6 — DATA OUTPUT & REPORT GENERATION
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Task 6: Implement ReportWriter
+Objective: formatting output and writing files.
+Concepts Covered:
+    • Writing text files
+    • String formatting
+    • Encapsulation of output logic
+Task Description:
+Write department statistics to a .txt file.
+
+MODULE 7 — ETL PIPELINE ORCHESTRATION
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Task 7: Build the Complete ETLPipeline
+Objective: modular orchestration and combining components.
+Concepts Covered:
+    • Clean architecture
+    • Pipeline execution flow
+    • Dependency usage
+Task Description:
+Chain Extract → Validate → Transform → Load.
+
+MODULE 8 — FUNCTIONAL PROGRAMMING EXTENSIONS
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Task 8: Add Filtering Capabilities Using Higher-Order Functions
+Objective: HOFs and function passing.
+Concepts Covered:
+    • Functions as parameters
+    • foldLeft to chain filters
+    • Functional purity
+Task Description:
+Enhance the pipeline with filter functions.
 
