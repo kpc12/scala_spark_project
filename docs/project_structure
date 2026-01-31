@@ -1,12 +1,12 @@
 Module: PROJECT STRUCTURE
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Task 1: Create the Project Structure
 Objective: Introduce packages, directory structure, and the SBT build system.
 Concepts Covered:
     • Packaging
     • Folder structure (src/main/scala/...)
     • SBT basics
-Task Description:
-Create the project folders exactly as shown and add an empty Main.scala.
+Task Description: Create the project folders exactly as shown and add an empty Main.scala.
 com/
  company/
        etl/
@@ -19,7 +19,7 @@ com/
             pipeline/
 
 MODULE 2 — CASE CLASSES & DATA MODELING
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Task 2: Implement the Employee & EmployeeStats case classes
 Objective: modeling real-world data using case classes.
 Concepts Covered:
@@ -28,4 +28,40 @@ Concepts Covered:
     • Typed fields
 Task Description:
 Create simple models inside models/Employee.scala.
+
+MODULE 3 — TRAITS & ABSTRACTION
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Objective: Introduce abstraction using traits.
+Concepts Covered:
+    • Traits
+    • Interfaces
+    • Generics
+Task Description:
+Implement three traits: DataReader, DataWriter, and DataTransformer.
+
+MODULE 4 — FILE I/O, PARSING & VALIDATION
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Task 4: Implement CsvEmployeeReader
+Objective: file handling and parsing.
+Concepts Covered:
+    • File I/O
+    • Parsing CSV
+    • Option for safe parsing
+    • Validation rules
+Task Description:
+Read employee data from a CSV file and validate it.
+
+MODULE 5 — COLLECTIONS & FUNCTIONAL PROGRAMMING TRANSFORMATIONS
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Task 5: Implement EmployeeAnalyzer Transformer
+Objective: Practice grouping, mapping, filtering, and functional programming.
+Concepts Covered:
+    • groupBy, map, filter, sortBy
+    • Higher-order functions
+    • Pure transformations
+Task Description:
+Compute statistics per department.
+
+MODULE 6 — DATA OUTPUT & REPORT GENERATION
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
